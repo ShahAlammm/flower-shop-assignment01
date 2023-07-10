@@ -1,0 +1,38 @@
+/* Header */
+.header{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 1920px;
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+
+}
+.header-title{
+     width: 708px;
+     color: #272727;
+     font-size: 30px;
+     font-weight: 200;
+     margin: 200px 0 0 300px;
+     font-family: 'Open Sans', sans-serif;
+}
+.some-text{
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+/* margin: 32px; */
+}
+.btn-primary{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+     gap: 10px;
+     border-radius: 8px;
+     background: #E55473;
+     border: none;
+}
