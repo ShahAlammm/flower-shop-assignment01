@@ -6,6 +6,7 @@
     width: 1920px;
     height: 850px;
     background: rgba(229, 84, 115, 0.10);
+    
 
 }
 .header-title{
@@ -13,7 +14,7 @@
      color: #272727;
      font-size: 30px;
      font-weight: 200;
-     margin: 200px 0 0 300px;
+     margin: 200px 0 0 250px;
      font-family: 'Open Sans', sans-serif;
 }
 .some-text{
@@ -21,11 +22,12 @@
     width: 634px;
     flex-direction: column;
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-/* margin: 32px; */
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 10px 0 20px 0;
+
 }
 .btn-primary{
     display: inline-flex;
@@ -35,4 +37,73 @@ line-height: 30px;
      border-radius: 8px;
      background: #E55473;
      border: none;
+     color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
 }
+#image{
+    margin: 20px 180px 0 0;
+}
+              /* section-01 */
+.Section-01{
+    width: 1920px;
+    height: 4867px;
+    background: #FFF;
+}
+              
+.section01-text{
+    text-align: center;
+    margin-top: 178px;
+    font-family: 'Open Sans', sans-serif;
+    color: #272727;
+    font-size: 25px;
+    font-weight: 200;
+}  
+.item-text{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}   
+.section01-image{
+    display: flex;
+    width: 1920px;
+    height: 4867px;
+    padding-left: 400px;
+   
+}  
+    
+#first{
+
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin: 20px
+ 
+    
+
+} 
+#middle{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 370px;
+    height: 370px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin: 20px;
+
+
+
+}
+#end{
+   
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 314px;
+    height: 471px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+margin: 20px;
+
+}      
