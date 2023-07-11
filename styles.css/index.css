@@ -48,9 +48,8 @@
     margin: 20px 180px 0 0;
 }
               /* section-01 */
-.Section{
+.section01-text{
     width: 1920px;
-    height: 4867px;
     background: #FFF;
 }
               
@@ -142,10 +141,12 @@ padding: 50px 50px 0 50px;
                                 /* section-02 */
 .bonus{
     width: 1440px;
-    height: 320px;border-radius: 8px;
+    height: 320px;
+    border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: auto;
+    margin: 0 0 0 250px;
     margin-top: 127px;
+
     
 }
 .icons, .text-decorate{
@@ -229,15 +230,16 @@ padding: 50px 50px 0 50px;
                                              
 .section04{
     margin-top: 130px;
-    text-align: center;
 }
 
 .heading{
+    display: flex;
+    margin: 0 0 0 900px;
+    text-align: center;
     color: #272727;
-   font-family: Lato;
-   font-size: 40px;
-   font-weight: 800;
-   font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .s4-pera{
