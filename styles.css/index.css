@@ -109,4 +109,27 @@ border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
 margin: 20px;
 padding: 50px 50px 0 50px;
-}      
+}  
+.underline{
+    display: flex;
+    color: #272727;
+    text-align: center;
+font-size: 20px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+.flower-name1{
+   margin: 0 0 0 370px;
+
+}
+.flower-name2{
+    margin: 0 0 0 300px;
+
+}
+.flower-name3{
+    margin: 0 0 0 310px;
+
+}
+    
+   
