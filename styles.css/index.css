@@ -69,41 +69,44 @@
 }   
 .section01-image{
     display: flex;
-    width: 1920px;
-    height: 4867px;
-    padding-left: 400px;
+    padding-left: 250px;
+    
    
 }  
-    
-#first{
+
+.first{
 
     width: 310px;
-    height: 428px;
+    height: 471px;
+    flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    margin: 20px
+    margin: 20px;
+   padding: 50px 50px 0 50px;
+    
+    
  
     
 
 } 
-#middle{
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 370px;
-    height: 370px;
+.middle{
+   
+    width: 310px;
+    height: 340px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     margin: 20px;
+    padding: 130px 50px 50px 50px;
 
 
 
 }
-#end{
+.end{
    
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 314px;
+    width: 310px;
     height: 471px;
 border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
 margin: 20px;
-
+padding: 50px 50px 0 50px;
 }      
